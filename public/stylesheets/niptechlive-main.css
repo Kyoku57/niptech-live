@@ -1,10 +1,10 @@
 html, body {
-    background-color: #fff;
-    color: #366AA2;
+    background-color: #000;
+    color: #ffffff;
 }
 
 h1, h2, h3, h4, h5 {
-    color: #366AA2;
+    color: #FFFFFF;
 }
 
 .container > footer p {
@@ -12,20 +12,20 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-    width: 1020px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+    width: 960px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
 }
 
 /* The white background content wrapper */
 .content {
     background-color: #fff;
     padding: 20px;
-    margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+    margin: 0 0px; /* negative indent the amount of the padding to maintain the grid system */
     min-height: 10px;
 }
 
 /* Page header tweaks */
 .page-header {
-    background-color: #fff;
+    background-color: #000;
     padding: 20px 20px 10px;
     margin: -20px -20px 20px;
 }
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .topbar p {
-    color: #888;
+    color: #000;
 }
 
 #username {
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5 {
     bottom: 75px;
     overflow-y: scroll;
     border-bottom: 1px solid #eee;
-    background-color: #F0F0F0;
+    background-color: #000;
     height: 325px;
 }
 
@@ -85,15 +85,17 @@ h1, h2, h3, h4, h5 {
     font-size: 14px;
     font-family: lato, sans-serif;
     font-weight: 300;
-    width: 364px;
+    width: 205px;
     border-radius: 0px;
     border-width: 2px;
+    background-color: black;
+    color: #ffffff;
 }
 
 .message {
     padding: 4px 0;
     position: relative;
-    font-size: 14px;
+    font-size: 12px;
     font-family: lato, sans-serif;
     font-weight: 300;
 }
@@ -115,13 +117,14 @@ h1, h2, h3, h4, h5 {
 .message p {
     display: inline-block;
     margin: 0;
-    width: 380px;
+    width: 210px;
     margin-left: 5px;
     border-bottom: 1px solid #C0C0C0;
 }
 
 .message.me {
-    background: #FFC;
+    background: rgba(49, 49, 39, 0.84);
+    color: white;
 }
 
 .message.join, .message.quit {
@@ -132,10 +135,10 @@ h1, h2, h3, h4, h5 {
     bottom: 75px;
     overflow-y: scroll;
     border-bottom: 1px solid #eee;
-    background-color: #F0F0F0;
+    background-color: #000;
     height: 325px;
     width: 179px;
-    color: black;
+    color: white;
     font-family: lato, sans-serif;
     font-weight: 300;
 }
@@ -143,7 +146,7 @@ h1, h2, h3, h4, h5 {
 #members-title {
     text-align: center;
     color: white;
-    background-color: #C3C3C3;
+    background-color: #006b4d;
     font-weight: bold;
     height: 30px;
     padding-top: 10px;
@@ -155,7 +158,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .nip-button {
-    color: black;
+    color: white;
     font-family: lato, sans-serif;
     font-weight: 900;
     border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
@@ -163,8 +166,8 @@ h1, h2, h3, h4, h5 {
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    background-color: #F0F0F0;
-    border-color: #BBBBBB #BBBBBB #A2A2A2;
+    background-color: #006b4d;
+    /*border-color: #BBBBBB #BBBBBB #A2A2A2;        */
     border-image: none;
     border-radius: 0px;
     cursor: pointer;
@@ -175,7 +178,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 0px;
     padding: 4px 0px;
     text-align: center;
-    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+   /* text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);      */
     vertical-align: middle;
     text-decoration: none;
     width: 179px;
